@@ -19,8 +19,6 @@ export default function LoginForm() {
     const response = await fetch("/api/login", config);
     const jsonResponse = await response.json();
     if (jsonResponse["status"] === true) {
-      console.log("working here");
-
       router.replace("/dashboard");
     } else {
       alert(jsonResponse.message);

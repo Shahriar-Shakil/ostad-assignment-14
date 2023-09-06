@@ -47,7 +47,6 @@ export default function GetInTouch() {
       setIsLoading(false);
     }
   };
-  console.log(isLoading);
   return (
     <div className="relative isolate bg-white mt-5">
       <div className="mx-auto grid max-w-7xl grid-cols-1 ">
