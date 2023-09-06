@@ -1,9 +1,10 @@
 import Image from "next/image";
 import Link from "next/link";
+import GetInTouch from "./components/GetInTouch";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+    <main className="flex min-h-screen flex-col items-center justify-between py-24">
       <div className="isolate inline-flex rounded-md shadow-sm">
         <Link
           href="/login"
@@ -20,6 +21,7 @@ export default function Home() {
           Dashboard
         </Link>
       </div>
+      <GetInTouch />
     </main>
   );
 }

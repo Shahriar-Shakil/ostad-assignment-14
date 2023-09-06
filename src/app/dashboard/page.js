@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "../components/Navbar";
+import { headers } from "next/headers";
 
 export default function page() {
   return (
